@@ -29,3 +29,8 @@ services:
 
 volumes:
   mysql-data:
+
+  two-tier-flaskapp:
+    image: shreyabehera/flaskapp
+    ports:
+      - "5000:5000"
